@@ -1,12 +1,26 @@
 import * as React from "react";
-import { Link } from "gatsby";
+import { Link, useStaticQuery, graphql } from "gatsby";
 import Navigation from "./Navigation";
-import { container, heading } from "./layout.module.css";
+import { container, heading, siteTitle } from "./layout.module.css";
 
 const Layout = ({ pageTitle, children }) => {
+  const data = useStaticQuery(graphql`
+    query {
+      site {
+        siteMetadata {
+          title
+        }
+      }
+    }
+  `);
+
   return (
     <div className={container}>
-      <Link to="/">Nicole Orchard</Link>
+      <header>
+        <Link className={siteTitle} to="/">
+          {data.site.siteMetadata.title}
+        </Link>
+      </header>
       <Navigation />
       <main>
         <h1 className={heading}>{pageTitle}</h1>

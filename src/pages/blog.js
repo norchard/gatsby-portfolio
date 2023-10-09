@@ -1,14 +1,31 @@
 import * as React from "react";
 import Layout from "../components/layout";
+import Seo from "../components/seo";
+import { graphql } from "gatsby";
 
-const BlogPage = () => {
+const BlogPage = ({ data }) => {
+  console.log("data: ", data);
   return (
     <Layout pageTitle="Blog">
-      <p>I'm making this by following the Gatsby Tutorial.</p>
+      <ul>
+        {data.allFile.nodes.map((node) => (
+          <li key={node.name}>{node.name}</li>
+        ))}
+      </ul>{" "}
     </Layout>
   );
 };
 
-export const Head = () => <title>Blog</title>;
+export const query = graphql`
+  query {
+    allFile {
+      nodes {
+        name
+      }
+    }
+  }
+`;
+
+export const Head = () => <Seo title="Blog" />;
 
 export default BlogPage;
