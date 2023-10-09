@@ -1,14 +1,14 @@
 import * as React from "react";
 import Layout from "../components/Layout";
 
-const IndexPage = () => {
+const BlogPage = () => {
   return (
-    <Layout pageTitle="Home Page">
+    <Layout pageTitle="Blog">
       <p>I'm making this by following the Gatsby Tutorial.</p>
     </Layout>
   );
 };
 
-export const Head = () => <title>Home Page</title>;
+export const Head = () => <title>Blog</title>;
 
-export default IndexPage;
+export default BlogPage;
