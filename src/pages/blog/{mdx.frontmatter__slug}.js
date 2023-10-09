@@ -4,7 +4,6 @@ import Layout from "../../components/layout";
 import Seo from "../../components/seo";
 
 const BlogPost = ({ data, children }) => {
-  console.log(children);
   return (
     <Layout pageTitle={data.mdx.frontmatter.title}>
       <p>{data.mdx.frontmatter.date}</p>
