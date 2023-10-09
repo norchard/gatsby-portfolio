@@ -7,18 +7,17 @@
   padding-right: 2rem;
 }
 .nav-link-text {
-  color: #929091;
+  color: #6e6e6e;
   text-decoration: none;
   font-size: 24px;
   padding-bottom: 3px;
 }
 
 .nav-link-text:hover {
-  color: #4c4849;
-  border-bottom: 3px solid #b766d2;
+  color: #393637;
+  border-bottom: 3px solid #eb5050;
 }
 
 .active {
-  color: #4c4849;
-  border-bottom: 3px solid #b766d2;
+  border-bottom: 3px solid #eb5050;
 }

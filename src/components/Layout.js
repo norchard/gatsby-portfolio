@@ -2,6 +2,7 @@ import * as React from "react";
 import { Link, useStaticQuery, graphql } from "gatsby";
 import Navigation from "./Navigation";
 import { container, heading, siteTitle } from "./layout.module.css";
+import "../styles/style.css";
 
 const Layout = ({ pageTitle, children }) => {
   const data = useStaticQuery(graphql`
