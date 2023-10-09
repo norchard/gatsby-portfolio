@@ -26,6 +26,11 @@ const Navigation = () => {
             Projects
           </Link>
         </li>
+        <li className={navLinkItem}>
+          <Link activeClassName={active} className={navLinkText} to="/ceramics">
+            Ceramics
+          </Link>
+        </li>
       </ul>
     </nav>
   );
