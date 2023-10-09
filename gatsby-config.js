@@ -1,10 +1,6 @@
-/**
- * @type {import('gatsby').GatsbyConfig}
- */
 module.exports = {
   siteMetadata: {
-    title: `Nicole Orchard`,
-    siteUrl: `https://www.yourdomain.tld`,
+    title: "Nicole Orchard",
   },
-  plugins: [],
-}
+  plugins: ["gatsby-plugin-image", "gatsby-plugin-sharp"],
+};
