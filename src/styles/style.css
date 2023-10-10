@@ -7,10 +7,6 @@ body {
   background-color: rgb(238, 238, 238);
 }
 
-.about-blurb {
-  line-height: 1.8em;
-}
-
 article {
   vertical-align: middle;
   border-bottom: 2px solid #d2d2d2;
@@ -38,4 +34,16 @@ article:hover {
   vertical-align: bottom;
   color: #acacac;
   font-weight: 700;
+}
+
+.project-tile {
+  margin-bottom: 50px;
+}
+
+.emojis {
+  font-size: 20px;
+}
+
+.about-text {
+  line-height: 1.5em;
 }

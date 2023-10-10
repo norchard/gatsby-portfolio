@@ -6,7 +6,7 @@ import { StaticImage } from "gatsby-plugin-image";
 const CeramicsPage = () => {
   return (
     <Layout pageTitle="Ceramics">
-      <p>I'm making this by following the Gatsby Tutorial.</p>
+      <p>When I'm not writing code I can sometimes be found throwing pots.</p>
       <StaticImage alt="ceramics" src="../images/ceramics.jpg" />
     </Layout>
   );
