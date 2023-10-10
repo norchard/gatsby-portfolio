@@ -16,10 +16,5 @@
   font-size: 2rem;
   color: #6e6e6e;
   font-weight: 700;
-  margin: 3rem 0;
   text-decoration: none;
-}
-
-.site-title:hover {
-  color: #eb5050;
 }

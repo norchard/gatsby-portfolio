@@ -7,6 +7,10 @@ body {
   background-color: rgb(238, 238, 238);
 }
 
+p {
+  line-height: 1.2em;
+}
+
 article {
   vertical-align: middle;
   border-bottom: 2px solid #d2d2d2;
@@ -46,4 +50,52 @@ article:hover {
 
 .about-text {
   line-height: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+  color: inherit;
+  border-bottom: 2px solid rgb(171, 171, 171);
+}
+
+a:hover {
+  text-decoration: none;
+  font-weight: 500;
+  color: inherit;
+  border-bottom: 2px solid var(--highlight);
+}
+
+header a {
+  border-bottom: none;
+}
+
+.project-tile {
+  margin-top: 40px;
+}
+
+.code-btn {
+  background-color: #a7a7a7;
+  padding: 8px 15px 7px 15px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 12px;
+  margin-right: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  /* border-bottom: 2px solid #eb5050; */
+}
+
+.code-btn:hover {
+  background-color: #eb5050;
+  padding: 8px 15px 7px 15px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
 }
