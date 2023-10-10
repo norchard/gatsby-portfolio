@@ -8,18 +8,23 @@ const ProjectsPage = () => {
     <Layout pageTitle="Projects">
       <div className="project-tile">
         <h2>
-          {" "}
+          🖼️{" "}
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://art-collection-frontend.onrender.com/"
           >
             Art Collection
-          </a>{" "}
+          </a>
         </h2>
         <p>Technology used: Node | Express | React | MongoDB | AWS-S3</p>
         <p>
           An app to keep track of artwork.{" "}
-          <a target="_blank" href="https://github.com/norchard/art-collection">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/norchard/art-collection"
+          >
             View the code
           </a>
         </p>
@@ -27,8 +32,10 @@ const ProjectsPage = () => {
       </div>
       <div className="project-tile">
         <h2>
+          🗺️{" "}
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://s3.amazonaws.com/publicartin.nyc/index.html"
           >
             Public Art in NYC
@@ -39,6 +46,7 @@ const ProjectsPage = () => {
           An app that plots public art in NYC on a map.{" "}
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://github.com/norchard/new-york-public-art"
           >
             View the code
@@ -48,9 +56,11 @@ const ProjectsPage = () => {
       </div>
       <div className="project-tile">
         <h2>
+          💣{" "}
           <a
             target="_blank"
-            href="https://s3.amazonaws.com/publicartin.nyc/index.html"
+            rel="noreferrer"
+            href="https://minesweeper-a828.onrender.com/"
           >
             Minesweeper
           </a>{" "}
@@ -58,12 +68,40 @@ const ProjectsPage = () => {
         <p>Technology used: React | Webpack | Babel</p>
         <p>
           An emoji-inspired take on the classic game.{" "}
-          <a target="_blank" href="https://github.com/norchard/minesweeper">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/norchard/minesweeper"
+          >
             View the code
           </a>{" "}
           | <a href="/blog/react-without-create-react-app">Read the blog</a>
         </p>
         <StaticImage alt="ceramics" src="../images/minesweeper.png" />
+      </div>
+      <div className="project-tile">
+        <h2>
+          👯‍♀️{" "}
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://white-unicorn.onrender.com/"
+          >
+            White Unicorn
+          </a>{" "}
+        </h2>
+        <p>Technology used: React | Bootstrap </p>
+        <p>
+          Imitation of a design studio website styles and animation.{" "}
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/norchard/white-unicorn"
+          >
+            View the code
+          </a>
+        </p>
+        <StaticImage alt="ceramics" src="../images/white-unicorn.png" />
       </div>
     </Layout>
   );
