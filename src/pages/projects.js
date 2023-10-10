@@ -9,39 +9,59 @@ const ProjectsPage = () => {
       <div className="project-tile">
         <h2>
           {" "}
-          <a href="https://art-collection-frontend.onrender.com/">
+          <a
+            target="_blank"
+            href="https://art-collection-frontend.onrender.com/"
+          >
             Art Collection
           </a>{" "}
         </h2>
         <p>Technology used: Node | Express | React | MongoDB | AWS-S3</p>
         <p>
-          An app to keep track of artwork. <a href="/">View the code</a>
+          An app to keep track of artwork.{" "}
+          <a target="_blank" href="https://github.com/norchard/art-collection">
+            View the code
+          </a>
         </p>
         <StaticImage alt="ceramics" src="../images/art-collection.png" />{" "}
       </div>
       <div className="project-tile">
         <h2>
-          <a href="https://s3.amazonaws.com/publicartin.nyc/index.html">
+          <a
+            target="_blank"
+            href="https://s3.amazonaws.com/publicartin.nyc/index.html"
+          >
             Public Art in NYC
           </a>{" "}
         </h2>
         <p>Technology used: Mapbox | d3 | Javascript | Ruby | cronjob </p>
         <p>
           An app that plots public art in NYC on a map.{" "}
-          <a href="/">View the code</a>
+          <a
+            target="_blank"
+            href="https://github.com/norchard/new-york-public-art"
+          >
+            View the code
+          </a>
         </p>
         <StaticImage alt="ceramics" src="../images/nyc-public-art.png" />
       </div>
       <div className="project-tile">
         <h2>
-          <a href="https://s3.amazonaws.com/publicartin.nyc/index.html">
+          <a
+            target="_blank"
+            href="https://s3.amazonaws.com/publicartin.nyc/index.html"
+          >
             Minesweeper
           </a>{" "}
         </h2>
         <p>Technology used: React | Webpack | Babel</p>
         <p>
           An emoji-inspired take on the classic game.{" "}
-          <a href="/">View the code</a> | <a href="/">Read the blog</a>
+          <a target="_blank" href="https://github.com/norchard/minesweeper">
+            View the code
+          </a>{" "}
+          | <a href="/blog/react-without-create-react-app">Read the blog</a>
         </p>
         <StaticImage alt="ceramics" src="../images/minesweeper.png" />
       </div>
