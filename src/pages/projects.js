@@ -103,6 +103,21 @@ const ProjectsPage = () => {
         </p>
         <StaticImage alt="ceramics" src="../images/white-unicorn.png" />
       </div>
+      <div className="project-tile">
+        <h2>👁️ Zoya</h2>
+        <p>Technology used: React | Next | Sanity | Tailwind </p>
+        <p>
+          Marketing website for an artist/gallerist.{" "}
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/norchard/zoya-next"
+          >
+            View the code
+          </a>
+        </p>
+        <StaticImage alt="ceramics" src="../images/zoya.png" />
+      </div>
     </Layout>
   );
 };
