@@ -24,10 +24,10 @@ const AboutPage = () => {
       </p>
       <p className="about-text">
         In the last several years I have gravitated back to design work while
-        struggling with my mental health, knowing all the while that I missed
-        the puzzles of programming. Now that my mental health is on the mend,
-        I'm picking up where I left off, learning new technologies, and looking
-        for my next technical role. 🧘‍♀️💻💫
+        focusing on my health, knowing all the while that I missed the puzzles
+        of programming. Now that my health is on the mend, I'm picking up where
+        I left off, learning new technologies, and looking for my next technical
+        role. 🧘‍♀️💻💫
       </p>
     </Layout>
   );

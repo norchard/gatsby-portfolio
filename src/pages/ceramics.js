@@ -7,7 +7,36 @@ const CeramicsPage = () => {
   return (
     <Layout pageTitle="Ceramics">
       <p>When I'm not writing code I can sometimes be found throwing pots.</p>
-      <StaticImage alt="ceramics" src="../images/ceramics.jpg" />
+      <StaticImage
+        className="ceramics"
+        alt="ceramics"
+        src="../images/ceramics/ceramics-1.jpg"
+      />
+      <StaticImage
+        className="ceramics"
+        alt="ceramics"
+        src="../images/ceramics/ceramics-2.jpg"
+      />
+      <StaticImage
+        className="ceramics"
+        alt="ceramics"
+        src="../images/ceramics/ceramics-3.jpg"
+      />
+      <StaticImage
+        className="ceramics"
+        alt="ceramics"
+        src="../images/ceramics/ceramics-4.jpg"
+      />
+      <StaticImage
+        className="ceramics"
+        alt="ceramics"
+        src="../images/ceramics/ceramics-5.jpg"
+      />
+      <StaticImage
+        className="ceramics"
+        alt="ceramics"
+        src="../images/ceramics/ceramics-6.jpg"
+      />
     </Layout>
   );
 };
