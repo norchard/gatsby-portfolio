@@ -104,7 +104,17 @@ const ProjectsPage = () => {
         <StaticImage alt="ceramics" src="../images/white-unicorn.png" />
       </div>
       <div className="project-tile">
-        <h2>👁️ Zoya</h2>
+        <h2>
+          👁️{" "}
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://zoya-next-2b2lbxlkt-norchards-projects.vercel.app/"
+          >
+            {" "}
+            Zoya
+          </a>
+        </h2>
         <p>Technology used: React | Next | Sanity | Tailwind </p>
         <p>
           Marketing website for an artist/gallerist.{" "}
