@@ -1,11 +1,43 @@
 import * as React from "react";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
-import { StaticImage } from "gatsby-plugin-image";
+import { GatsbyImage, StaticImage } from "gatsby-plugin-image";
+import Project from "../components/project";
 
 const ProjectsPage = () => {
+  // const projects = [
+  //   {
+  //     name: "Art Collection",
+  //     tech: ["Node", "Express", "React", "MondoDB", "AWS-S3"],
+  //     description: "An app to keep track of artwork.",
+  //     demoLink: "https://art-collection-frontend.onrender.com/",
+  //     codeLink: "https://github.com/norchard/art-collection",
+  //     image: "../images/art-collection.png",
+  //   },
+  //   {
+  //     name: "Public Art in NYC",
+  //     tech: ["Node", "Express", "React", "MondoDB", "AWS-S3"],
+  //     description: "An app that plots public art in NYC on a map.",
+  //     demoLink: "https://s3.amazonaws.com/publicartin.nyc/index.html",
+  //     codeLink: "https://github.com/norchard/new-york-public-art",
+  //     image: "../images/nyc-public-art.png",
+  //   },
+  // ];
   return (
     <Layout pageTitle="Projects">
+      {/* {projects.map((project, i) => (
+        <div className="project-tile">
+          <Project
+            name={project.name}
+            tech={project.tech}
+            description={project.description}
+            demoLink={project.demoLink}
+            codeLink={project.codeLink}
+            key={i}
+          />
+          <GatsbyImage alt={project.name} src={project.image} />
+        </div>
+      ))} */}
       <div className="project-tile">
         <h2>
           🖼️{" "}
@@ -15,9 +47,9 @@ const ProjectsPage = () => {
             href="https://art-collection-frontend.onrender.com/"
           >
             Art Collection
-          </a>
+          </a>{" "}
         </h2>
-        <p>Technology used: Node | Express | React | MongoDB | AWS-S3</p>
+        <p>Technology used: Node | Express | React | MongoDB | AWS-S3 </p>
         <p>
           An app to keep track of artwork.{" "}
           <a
@@ -28,7 +60,7 @@ const ProjectsPage = () => {
             View the code
           </a>
         </p>
-        <StaticImage alt="ceramics" src="../images/art-collection.png" />{" "}
+        <StaticImage alt="ceramics" src="../images/art-collection.png" />
       </div>
       <div className="project-tile">
         <h2>
